@@ -11,7 +11,7 @@ export default function PortfolioSection() {
     return projects.map((project, index) => {
       return (
         <article key={index}>
-          <img src={project.img} />
+          <img src={project.img} alt='portfolio project thumbnail' />
           <h3>{project.title}</h3>
           <span className='meta'><a className='link' href={project.github}>Github</a> | <a className='link' href={project.demo}>Demo</a></span>
         </article>

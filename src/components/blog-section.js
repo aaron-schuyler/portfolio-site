@@ -14,7 +14,7 @@ export default function BlogSection() {
     return blogPosts.map(post => {
       return (
         <article key={post.guid}>
-          <img src={post.thumbnail} />
+          <img src={post.thumbnail} alt='blog post thumbnail' />
           <h3>{post.title}</h3>
           <span className='meta'>{post.author} | {post.pubDate}</span>
         </article>

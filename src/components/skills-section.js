@@ -22,9 +22,9 @@ export default function SkillsSection() {
   const [skills, setSkills] = useState(techSkills)
   const [techSelected, setTechSelected] = useState(true)
   const renderSkills = () => {
-    return skills.map((skill) => {
+    return skills.map((skill, index) => {
       return (
-        <div className='skill'>
+        <div className='skill' key={index}>
           <h3 className={skill.color}>{skill.name}</h3>
           <span className={skill.color}>
             Exp: {renderLineGraph(skill.exp)}
