@@ -11,7 +11,7 @@ export default function BlogSection() {
     })
   }, [])
   const renderBlogPosts = () => {
-    return blogPosts.map((post) => {
+    return blogPosts.map(post => {
       return (
         <article key={post.guid}>
           <img src={post.thumbnail} />

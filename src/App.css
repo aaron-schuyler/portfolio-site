@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(0deg, rgba(255,204,68,1) 14%, rgba(0,255,0,1) 14%, rgba(0,255,0,1) 28%, rgba(0,0,255,1) 28%, rgba(0,0,255,1) 42%, rgba(119,0,255,1) 42%, rgba(119,0,255,1) 56%, rgba(255,85,255,1) 56%, rgba(255,85,255,1) 70%, rgba(255,51,51,1) 70%, rgba(255,51,51,1) 84%, rgba(255,119,0,1) 84%);
+  background: linear-gradient(0deg, #fbce55 14%, #98c379 14%, #98c379 28%, #61afef 28%, #61afef 42%, #9d31ff 42%, #9d31ff 56%, #f5f 56%, #f5f 70%, #e06c75 70%, #e06c75 84%, #d19a66 84%);
 }
 
 body {
@@ -32,7 +32,7 @@ h1 {
 
 .meta {
   margin-top:-20px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 h1, h2, h3 {
@@ -41,20 +41,20 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  color: #fc4;
+  color: #fbce55;
 }
 
 .pseudo-title {
   font-family: 'VT323', monospace;
   font-weight: 100;
-  color: #fc4;
+  color: #fbce55;
   text-align: center;
 }
 
 .about img {
   width: 400px;
   transform: scaleX(-1);
-  border: 2px dashed #fc4;
+  border: 2px dashed #fbce55;
   border-radius: 5px;
   padding:10px;
 }
@@ -73,7 +73,7 @@ h2, h3 {
 }
 
 article {
-  border: 2px dashed #fc4;
+  border: 2px dashed #fbce55;
   border-radius: 5px;
   padding: 10px;
   margin:auto;
@@ -92,7 +92,7 @@ header {
 
 .divider{
   height:5px;
-  background: linear-gradient(90deg, rgba(255,204,68,1) 14%, rgba(0,255,0,1) 14%, rgba(0,255,0,1) 28%, rgba(0,0,255,1) 28%, rgba(0,0,255,1) 42%, rgba(119,0,255,1) 42%, rgba(119,0,255,1) 56%, rgba(255,85,255,1) 56%, rgba(255,85,255,1) 70%, rgba(255,51,51,1) 70%, rgba(255,51,51,1) 84%, rgba(255,119,0,1) 84%);
+  background: linear-gradient(90deg, #fbce55 14%, #98c379 14%, #98c379 28%, #61afef 28%, #61afef 42%, #9d31ff 42%, #9d31ff 56%, #f5f 56%, #f5f 70%, #e06c75 70%, #e06c75 84%, #d19a66 84%);
 }
 
 .about img {
@@ -109,19 +109,19 @@ header {
 
 
 .yellow {
-  color: #fc4;
+  color: #fbce55;
 }
 
 .green {
-  color: #0f0;
+  color: #98c379;
 }
 
 .blue {
-  color: #00f;
+  color: #61afef;
 }
 
 .purple {
-  color: #70f;
+  color: #9d31ff;
 }
 
 .pink {
@@ -129,15 +129,15 @@ header {
 }
 
 .red {
-  color: #f33;
+  color: #e06c75;
 }
 
 .orange {
-  color: #f70;
+  color: #d19a66;
 }
 
 .see-more{
-  color: #fc4;
+  color: #fbce55;
   font-family: 'VT323', monospace;
   font-weight: 100;
   float:right;
@@ -145,7 +145,7 @@ header {
 }
 
 .link {
-  color: #fc4;
+  color: #fbce55;
   font-family: 'VT323', monospace;
   font-weight: 100;
   text-decoration: underline;
@@ -153,7 +153,7 @@ header {
 }
 
 .active {
-  border-bottom: 2px dashed #fc4;
+  border-bottom: 2px dashed #fbce55;
 }
 
 .switch-view {
