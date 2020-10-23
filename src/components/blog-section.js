@@ -27,6 +27,7 @@ export default function BlogSection() {
       <div className='posts'>
         {renderBlogPosts()}
       </div>
+      <a href='https://medium.com/@aaron_schuyler' className='see-more'>Go To Medium</a>
     </div>
   )
 }
