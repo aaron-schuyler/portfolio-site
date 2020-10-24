@@ -13,6 +13,7 @@ export default function PortfolioSection() {
         <article key={index}>
           <img src={project.img} alt='portfolio project thumbnail' />
           <h3>{project.title}</h3>
+          <p>{project.description}</p>
           <span className='meta'><a className='link' href={project.github}>Github</a> | <a className='link' href={project.demo}>Demo</a></span>
         </article>
       )

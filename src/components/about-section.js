@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutSection() {
 
   return (
-    <div className='about section'>
+    <div className='about'>
       <div className='col'><img src='../headshot.jpeg' alt='Aaron Schuyler' /></div>
       <div className='col'>
         <h2>Hello, My name is Aaron Schuyler.</h2>

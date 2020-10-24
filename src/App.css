@@ -7,6 +7,18 @@
   .about img {
     width: 100%;
   }
+  .about {
+    display: block  !important;
+  }
+  .about img {
+    margin-top: 0px !important;
+  }
+  .posts {
+    display:block !important;
+  }
+  .skills-grid {
+    display: block !important;
+  }
 }
 ::-webkit-scrollbar {
   width: 3px;
@@ -24,6 +36,8 @@ body {
   background-color: #000;
   color: #ffe;
   font-family: 'Vollkorn', serif;
+  max-width: 960px;
+  margin:auto;
 }
 
 h1 {
@@ -52,17 +66,19 @@ h2, h3 {
 }
 
 .about img {
-  width: 400px;
+  width: calc(100% - 40px);
   transform: scaleX(-1);
   border: 2px dashed #fbce55;
   border-radius: 5px;
   padding:10px;
+  margin-top: 70px;
 }
 
 .about {
-  display: flex !important;
-  align-items: center;
+  display: flex;
+  padding: 25px;
 }
+
 
 .col {
 }
