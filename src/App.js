@@ -7,15 +7,14 @@ import SkillsSection from './components/skills-section.js'
 import PortfolioSection from './components/portfolio-section.js'
 import BlogSection from './components/blog-section.js'
 import Divider from './components/divider.js'
+import Contact from './components/contact.js'
 
 export default function App() {
   return (
     <div className='app'>
       <header className='header'>
         <SiteLogo />
-        <div className='nav'>
-
-        </div>
+        <Contact />
       </header>
       <Divider />
       <div className='main'>
@@ -29,7 +28,7 @@ export default function App() {
       </div>
       <Divider />
       <footer>
-        <p>&copy; 2020 | Aaron Schuyler</p>
+        <p>&copy; 2020 | Aaron Schuyler | <a className='link' href='mailto:hello@aaronschuyler.com'>hello@aaronschuyler.com</a></p>
       </footer>
     </div>
   )

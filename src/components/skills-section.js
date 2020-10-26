@@ -1,21 +1,21 @@
 import React, {useState} from 'react'
 
 const techSkills = [
-  { name: 'Javascript', exp: 45, color: 'yellow' },
-  { name: 'HTML/CSS', exp: 50, color: 'green' },
-  { name: 'Ruby on Rails', exp: 40, color: 'blue' },
-  { name: 'React', exp: 35, color: 'purple' },
-  { name: 'Vue JS', exp:30, color: 'pink' },
-  { name: 'Node JS', exp: 25, color: 'red' },
-  { name: 'SQL', exp: 35, color: 'orange' },
-  { name: 'Mongo DB', exp: 25, color: 'yellow' }
+  { name: 'Javascript', exp: 9, color: 'yellow' },
+  { name: 'HTML/CSS', exp: 10, color: 'green' },
+  { name: 'Ruby on Rails', exp: 8, color: 'blue' },
+  { name: 'React', exp: 7, color: 'purple' },
+  { name: 'Vue JS', exp:6, color: 'pink' },
+  { name: 'Node JS', exp: 5, color: 'red' },
+  { name: 'SQL', exp: 7, color: 'orange' },
+  { name: 'Mongo DB', exp: 5, color: 'yellow' }
 ]
 const creativeSkills = [
-  { name: 'Video Editing', exp: 45, color: 'yellow' },
-  { name: 'VFX', exp: 30, color: 'green' },
-  { name: 'Animation', exp: 35, color: 'blue' },
-  { name: 'UX/UI Design', exp: 40, color: 'purple' },
-  { name: 'Graphic Design', exp:40, color: 'pink' }
+  { name: 'Video Editing', exp: 9, color: 'yellow' },
+  { name: 'VFX', exp: 6, color: 'green' },
+  { name: 'Animation', exp: 7, color: 'blue' },
+  { name: 'UX/UI Design', exp: 8, color: 'purple' },
+  { name: 'Graphic Design', exp:7, color: 'pink' }
 ]
 
 export default function SkillsSection() {
@@ -27,7 +27,8 @@ export default function SkillsSection() {
         <div className='skill' key={index}>
           <h3 className={skill.color}>{skill.name}</h3>
           <span className={skill.color}>
-            Exp: {renderLineGraph(skill.exp)}
+            Exp: {skill.exp}/10 <br />
+            {renderLineGraph(skill.exp)}
           </span>
         </div>
       )
@@ -35,7 +36,7 @@ export default function SkillsSection() {
   }
   const renderLineGraph = (number) => {
     let line = ''
-    for (let i = 0; i < number; i+=2) {
+    for (let i = 0; i < number; i++) {
       line += '#'
     }
     return line

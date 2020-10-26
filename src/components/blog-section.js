@@ -15,7 +15,7 @@ export default function BlogSection() {
       return (
         <article key={post.guid}>
           <img src={post.thumbnail} alt='blog post thumbnail' />
-          <h3>{post.title}</h3>
+          <a className='link' href={post.link}><h3>{post.title}</h3></a>
           <span className='meta'>{post.author} | {post.pubDate}</span>
         </article>
       )

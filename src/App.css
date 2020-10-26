@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&family=Vollkorn&display=swap');
 
 @media (max-width: 400px) {
+  header {
+    display: block !important;
+  }
+  .contact, .site-logo {
+    text-align: center !important;
+  }
   .posts, .about {
     display: block;
   }
@@ -17,7 +23,7 @@
     display:block !important;
   }
   .skills-grid {
-    display: block !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 ::-webkit-scrollbar {
@@ -31,6 +37,8 @@
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(0deg, #fbce55 14%, #98c379 14%, #98c379 28%, #61afef 28%, #61afef 42%, #9d31ff 42%, #9d31ff 56%, #f5f 56%, #f5f 70%, #e06c75 70%, #e06c75 84%, #d19a66 84%);
 }
+
+
 
 body {
   background-color: #000;
@@ -46,7 +54,6 @@ h1 {
 
 .meta {
   margin-top:-20px;
-  font-size: 12px;
 }
 
 h1, h2, h3 {
@@ -58,11 +65,38 @@ h2, h3 {
   color: #fbce55;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .pseudo-title {
   font-family: 'VT323', monospace;
   font-weight: 100;
   color: #fbce55;
   text-align: center;
+}
+.contact {
+  text-align: right;
+  margin-top: 10px;
+}
+.icon:first-child {
+  margin-left: 0px !important;
+}
+
+.icon {
+  color: #fbce55;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 .about img {
@@ -104,6 +138,10 @@ article img {
 
 header {
   padding: 25px;
+}
+
+footer {
+  text-align: center;
 }
 
 .divider{
