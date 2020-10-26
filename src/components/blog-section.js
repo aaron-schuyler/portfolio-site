@@ -7,7 +7,6 @@ export default function BlogSection() {
     .then(res => res.json())
     .then((mediumData) => {
       setBlogPosts(mediumData.items)
-      console.log(mediumData.items)
     })
   }, [])
   const renderBlogPosts = () => {

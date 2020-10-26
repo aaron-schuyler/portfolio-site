@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&family=Vollkorn&display=swap');
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   header {
     display: block !important;
   }
@@ -54,6 +54,7 @@ h1 {
 
 .meta {
   margin-top:-20px;
+  font-size: 12px;
 }
 
 h1, h2, h3 {
@@ -105,7 +106,7 @@ header {
   border: 2px dashed #fbce55;
   border-radius: 5px;
   padding:10px;
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 .about {
@@ -150,8 +151,7 @@ footer {
 }
 
 .about img {
-  float: left;
-  margin-right: 20px;
+
 }
 
 
@@ -211,7 +211,7 @@ footer {
 }
 
 .switch-view {
-  text-align: center;
+
 }
 
 .skills-grid {
