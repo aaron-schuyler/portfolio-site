@@ -16,7 +16,7 @@ export default function PortfolioSection() {
           <a className='link' href={project.link}><h3>{project.title}</h3></a>
           <p>{project.description}</p>
           {project.github && <span><a className='link' href={project.github}>Github</a> | <a className='link' href={project.link}>Demo</a></span> }
-          {!project.github && <a className='link' href={project.link}>Visit Site</a></span> }
+          {!project.github && <span></span><a className='link' href={project.link}>Visit Site</a></span> }
         </article>
       )
     })
