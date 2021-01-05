@@ -4,7 +4,7 @@ const techProjects = [
   { title: 'Macros', description: 'Macros is a diet and fitness tracking app built primarily with Ruby on Rails.', img: '../macros-thumb.png', link: 'https://aaronschuyler-macros.herokuapp.com/days/2020-10-23', github: 'https://github.com/aaron-schuyler/macros', tech: ['Ruby on Rails', 'Javascript']},
   { title: 'Opus', description: 'Opus is a writing app with support for various rich text formatting built in vanilla Javascript and a Rails API backend.', img: '../opus-thumb.png', link: 'https://www.opus.aaronschuyler.com', github: 'https://github.com/aaron-schuyler/opus', tech: ['Ruby on Rails', 'Javascript']},
   { title: 'Togethr', description: 'Togethr is a mutual aid request platform that is built in React with a Rails API backend, it uses JWT for authentication.', img: '../togethr-thumb.png', link: 'https://inspiring-kirch-11050f.netlify.app/tickets', github: 'https://github.com/aaron-schuyler/togethr', tech: ['React', 'Redux', 'Ruby on Rails', 'Javascript']},
-  {title: 'Greenville Journal', description: 'Greenville Journal is a local news publication in South Carolina'}
+  {title: 'Greenville Journal', description: 'Greenville Journal is a local news publication in South Carolina. I maintain several of their websites.', link: 'https://greenvillejournal.com', img: '../GJ-Thumb.PNG'}
 ]
 
 export default function PortfolioSection() {
